@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy</title>
+    <!--google font for udemy-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+<!--my style-->
+<link rel="stylesheet" href="style.css">
+<!--Font Awesome cdn Link-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--nav bar-->
+    <div id="root">
+
+    <div class="navbar">
+        <div class="navbar__s1">
+            <h1 class="navbar__s1__title">Udemy</h1>
+        </div>
+
+        <div class="navbar__s2">
+            <i class="fa-sharp fa-solid fa-magnifying-glass" style="color: #0a0a0b;"></i>
+            <input placeholder="Search for anything here. Tech, Business, Art..">
+        </div>
+
+        <div class="navbar__s3">
+            <p>Courses</p>
+      <!--<p>My Learning</p>-->
+            <div class="mylearning">
+                <p>My Learning</p>
+                <div class="mylearning__popup">
+                     <p>You did not purchase anything yet</p>
+                </div>
+            </div>
+            <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
+            <i class="fa-solid fa-bell" style="color: #0d0d0d;"></i>
+            <i class="fa-duotone fa-solid fa-user" style="--fa-primary-color: #0a0a0a; --fa-secondary-color: #000505; --fa-secondary-opacity: 1;"></i>
+        </div>
+        <div class="navbar__s4">
+            <i class="fa-solid fa-bars" style="color: #000205;"></i>
+        </div>
+    </div>
+
+    <!--categories-->
+    <div class="categories">
+        <p>Business</p>
+        <p>Development</p>
+        <p>IT & Software</p>
+        <p>Personal Development</p>
+        <p>Design</p>
+        <p>Marketing</p>
+    </div>
+
+    <!--sale image-->
+
+    <div  class="sale-image">
+         <img src="./images/SALE.jpg" alt="Sale image">
+         <div class="sale-image__offer">
+            <h2>Udemy Flash Sale! 24 hours to save.</h2>
+            <p>Get the top courses for just 499.Just a one say to save but a lifetime to learn</p>
+         </div>
+    </div>
+
+    <!--recommended-->
+
+    <div class="recommended">
+        <h1 class="recommended__title">Recommended for you</h1>
+        <p>Pick the best fit</p>
+        <div class="recommended__container">
+            <div class="course-card">
+                <img src="./images/c1.jpg" alt="">
+                <h3>2023 Python Data Visualization MasterClass</h3>
+                <p>Col Steele</p>
+                <p>4.7 ⭐⭐⭐⭐</p>
+                <p>599 <del>1999</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c2.jpg" alt="">
+                <h3>Web Development Bootcamp <br> 2023</h3>
+                <p>Col Steele</p>
+                <p>4.9 ⭐⭐⭐⭐</p>
+                <p>799 <del>1799</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c3.jpg" alt="">
+                <h3>Master UI & UXDesigning with Figma</h3>
+                <p>Col Steele</p>
+                <p>3.9 ⭐⭐⭐</p>
+                <p>499 <del>899</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c4.jpg" alt="">
+                <h3>Basic to Advance Programming with EMC</h3>
+                <p>Col Steele</p>
+                <p>4.9 ⭐⭐⭐⭐⭐</p>
+                <p>999 <del>3599</del></p>
+            </div>
+        </div>
+    </div>
+
+    <!--topic section-->
+    <div class="Topics">
+        <h1 class="topics__title">Topics Recommended for You</h1>
+        <div class="topics__container">
+            <p>Website</p>
+            <p>JavaScript</p>
+            <p>CSS</p>
+            <p>MongoDB</p>
+            <p>AWS</p>
+            <p>Azure</p>
+            <p>Docker</p>
+            <p>GitHub</p>
+            <p>ReactJS</p>
+        </div>
+    </div>
+
+    <!--Popular Section-->
+    <div class="Popular">
+        <h1 class="Popular__title">Most Popular</h1>
+        <p class="Popular__subtitle">Pick the best Fit</p>
+        <div class="Popular__container">
+            <div class="course-card">
+                <img src="./images/c1.jpg" alt="">
+                <h3>2023 Python Data Visualization MasterClass</h3>
+                <p>Col Steele</p>
+                <p>4.7 ⭐⭐⭐⭐</p>
+                <p>599 <del>1999</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c2.jpg" alt="">
+                <h3>Web Development Bootcamp <br> 2023</h3>
+                <p>Col Steele</p>
+                <p>4.9 ⭐⭐⭐⭐</p>
+                <p>799 <del>1799</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c3.jpg" alt="">
+                <h3>Master UI & UXDesigning with Figma</h3>
+                <p>Col Steele</p>
+                <p>3.9 ⭐⭐⭐</p>
+                <p>499 <del>899</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c4.jpg" alt="">
+                <h3>Basic to Advance Programming with EMC</h3>
+                <p>Col Steele</p>
+                <p>4.9 ⭐⭐⭐⭐⭐</p>
+                <p>999 <del>3599</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c2.jpg" alt="">
+                <h3>Web Development Bootcamp <br> 2023</h3>
+                <p>Col Steele</p>
+                <p>4.9 ⭐⭐⭐⭐</p>
+                <p>799 <del>1799</del></p>
+            </div>
+
+
+            <div class="course-card">
+                <img src="./images/c4.jpg" alt="">
+                <h3>Basic to Advance Programming with EMC</h3>
+                <p>Col Steele</p>
+                <p>4.9 ⭐⭐⭐⭐⭐</p>
+                <p>999 <del>3599</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c1.jpg" alt="">
+                <h3>2023 Python Data Visualization MasterClass</h3>
+                <p>Col Steele</p>
+                <p>4.7 ⭐⭐⭐⭐</p>
+                <p>599 <del>1999</del></p>
+            </div>
+
+            <div class="course-card">
+                <img src="./images/c3.jpg" alt="">
+                <h3>Master UI & UXDesigning with Figma</h3>
+                <p>Col Steele</p>
+                <p>3.9 ⭐⭐⭐</p>
+                <p>499 <del>899</del></p>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer Section-->
+    <div class="footer">
+        <div class="footer__one">
+            <div class="footer__one__s1">
+                <p>Udemy Business</p>
+                <p>Teach on Udemy</p>
+                <p>Get the App</p>
+                <p>About Us</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="footer__one__s2">
+                <p>Careers</p>
+                <p>Blog</p>
+                <p>Help and Support</p>
+                <p>Affiliate</p>
+                <p>Investors</p>
+            </div>
+        </div>
+
+        <div class="footer__two">
+            <h1>Udemy</h1>
+            <p>&copy; Udemy, Inc</p>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
